@@ -1,5 +1,6 @@
 # mix-match
-半教師あり学習モデル「MixMatch」を論文から実装してみる  
+半教師あり学習モデル「MixMatch」を論文から実装してみる(実装中)  
+
 ## 参考論文
 David Berthelot, Nicholas Carlini, Ian Goodfellow, Avital Oliver, Nicolas Papernot, Colin Raffel  
 MixMatch: A Holistic Approach to Semi-Supervised Learning, 2019
@@ -18,3 +19,4 @@ Augmentation:画像で言えば、訓練データの画像を反転したもの�
 7. ラベル無しデータについて、生成したラベルと予測値の差の二乗和を算出する。
 8. 6と7を加算する（これを損失関数とする）
 9. 1〜8を繰り返し、勾配降下法により8の結果が最も小さくなる重みを求める。
+
